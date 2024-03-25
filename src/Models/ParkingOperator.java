@@ -1,6 +1,6 @@
 package Models;
 
-public class ParkingOperator {
+public class ParkingOperator extends BaseModel{
    private int empId;
    private String empName;
 

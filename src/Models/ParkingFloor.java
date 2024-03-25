@@ -2,11 +2,11 @@ package Models;
 
 import java.util.List;
 
-public class ParkingFloor {
+public class ParkingFloor extends BaseModel{
 
     int floorNumber;
 
-    public int getFloorNumber() extends BaseModel{
+    public int getFloorNumber() {
         return floorNumber;
     }
 

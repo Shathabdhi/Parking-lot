@@ -3,7 +3,7 @@ package Models;
 import java.time.LocalDateTime;
 import java.util.Date;
 
-public class Ticket {
+public class Ticket extends BaseModel{
     public String getTicketNumber() {
         return ticketNumber;
     }

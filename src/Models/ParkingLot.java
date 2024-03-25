@@ -5,7 +5,7 @@ import Strategies.ParkingPlaceAllotmentStrategy;
 
 import java.util.List;
 
-public class ParkingLot {
+public class ParkingLot extends BaseModel{
     private List<ParkingFloor> floors;
     private List<Gate> gates;
     private ParkingLotStatus status;

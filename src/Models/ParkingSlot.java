@@ -1,6 +1,6 @@
 package Models;
 
-public class ParkingSlot {
+public class ParkingSlot extends BaseModel{
     private VehicleType vehicleType;
 
     private ParkingStatus parkingStatus;

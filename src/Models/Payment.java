@@ -2,7 +2,7 @@ package Models;
 
 import java.time.LocalDateTime;
 
-public class Payment {
+public class Payment extends BaseModel{
     private PaymentMode paymentMode;
     private Float amount;
     private int refNumber;
