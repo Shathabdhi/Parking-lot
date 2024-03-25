@@ -5,7 +5,7 @@ import Strategies.BillingStrategy;
 import java.time.LocalDateTime;
 import java.util.List;
 
-public class Bill {
+public class Bill extends BaseModel{
 
     private LocalDateTime exitTime;
     private String  billNumber;

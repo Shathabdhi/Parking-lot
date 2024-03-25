@@ -1,6 +1,6 @@
 package Models;
 
-public class Gate {
+public class Gate extends BaseModel{
    private int gateNumber;
 
     public int getGateNumber() {

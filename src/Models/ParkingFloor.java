@@ -6,7 +6,7 @@ public class ParkingFloor {
 
     int floorNumber;
 
-    public int getFloorNumber() {
+    public int getFloorNumber() extends BaseModel{
         return floorNumber;
     }
 
