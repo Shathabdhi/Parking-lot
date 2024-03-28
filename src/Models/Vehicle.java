@@ -8,6 +8,12 @@ public class Vehicle extends BaseModel{
 
     private String ownerName;
 
+    public Vehicle(VehicleType vehicleType, String vehicleNumber, String ownerName) {
+        this.vehicleType = vehicleType;
+        this.vehicleNumber = vehicleNumber;
+        this.ownerName = ownerName;
+    }
+
     public String getVehicleNumber() {
         return vehicleNumber;
     }
@@ -30,5 +36,9 @@ public class Vehicle extends BaseModel{
 
     public void setOwnerName(String ownerName) {
         this.ownerName = ownerName;
+    }
+
+    public void save(Vehicle vehicle) {
+        veh
     }
 }

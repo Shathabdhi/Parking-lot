@@ -12,11 +12,11 @@ public class Ticket extends BaseModel{
         this.ticketNumber = ticketNumber;
     }
 
-    public LocalDateTime getEntryTime() {
+    public Date getEntryTime() {
         return entryTime;
     }
 
-    public void setEntryTime(LocalDateTime entryTime) {
+    public void setEntryTime(Date entryTime) {
         this.entryTime = entryTime;
     }
 
@@ -53,7 +53,7 @@ public class Ticket extends BaseModel{
     }
 
     private String ticketNumber;
-    private LocalDateTime entryTime;
+    private Date entryTime;
 
     private Vehicle vehicle;
 
