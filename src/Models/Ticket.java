@@ -61,4 +61,8 @@ public class Ticket extends BaseModel{
     private Gate entryGate;
 
     private ParkingOperator operator;
+
+    public Ticket putIfAbsent(Long previousId, Ticket ticket) {
+        return ticket;
+    }
 }
